@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+using ll = long long;
+
+void solve () {
+   int a, b, c, x;
+   cin >> a >> b >> c >> x;
+   if(x == a || x == b || x == c) cout << "Yes\n";
+   else cout << "No\n";  
+}
+
+int main() {
+    ios::sync_with_stdio(false);cin.tie(nullptr);
+    solve ();
+    return 0;
+}
